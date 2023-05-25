@@ -26,6 +26,7 @@ function App() {
 					<Header />
 					<Routes>
 						<Route
+							exact
 							path="/"
 							element={
 								<Suspense fallback={<p>loading...</p>}>
@@ -33,6 +34,7 @@ function App() {
 								</Suspense>
 							}></Route>
 						<Route
+							exact
 							path="/Home"
 							element={
 								<Suspense fallback={<p>loading...</p>}>
@@ -40,6 +42,7 @@ function App() {
 								</Suspense>
 							}></Route>
 						<Route
+							exact
 							path="/About"
 							element={
 								<Suspense fallback={<p>loading...</p>}>
@@ -47,6 +50,7 @@ function App() {
 								</Suspense>
 							}></Route>
 						<Route
+							exact
 							path="/Donors"
 							element={
 								<Suspense fallback={<p>loading...</p>}>
@@ -54,6 +58,7 @@ function App() {
 								</Suspense>
 							}></Route>
 						<Route
+							exact
 							path="/Donate"
 							element={
 								<Suspense fallback={<p>loading...</p>}>
@@ -61,6 +66,7 @@ function App() {
 								</Suspense>
 							}></Route>
 						<Route
+							exact
 							path="*"
 							element={
 								<Suspense fallback={<p>loading...</p>}>
@@ -73,8 +79,8 @@ function App() {
 			) : (
 				<>
 					<Routes>
-						<Route path="/" element={<Login />}></Route>
-						<Route path="/Register" element={<Register />}></Route>
+						<Route exact path="/" element={<Login />}></Route>
+						<Route exact path="/Register" element={<Register />}></Route>
 					</Routes>
 				</>
 			)}
