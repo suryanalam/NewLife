@@ -1,6 +1,5 @@
 {
   "name": "project",
-  "homepage": "https://suryanalam.github.io/NewLife/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
