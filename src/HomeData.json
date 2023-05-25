@@ -1,0 +1,61 @@
+{
+	"eligibility": [
+		{
+			"title": "Eligibility",
+			"details": [
+				"Healthy volunteers of age group between 18-65 years of age, weight at least 45 kg and Hb of at least 12.5grams can donate blood.",
+				"Healthy males can donate blood once in three months and women once in four months.",
+				"A donor shall not do any type of donation within 12 months after a bone marrow harvest and within 6 months after a peripheral stem cell harvest.",
+				"Pregnant women or recently delivered mother should be deferred for 12 months after delivery.",
+				"People with HIV/AIDS, syphilis and hepatitis, and injected with drugs at any point of life, must never give blood."
+			]
+		}
+	],
+
+	"benefits": [
+		{
+			"title": "Benefits",
+			"details": [
+				"Reduce stress",
+				"Improve your emotional well-being",
+				"Benefit your physical health",
+				"Help get rid of negative feelings",
+				"Provide a sense of belonging and reduce isolation"
+			]
+		}
+	],
+
+	"precautions": [
+		{
+			"title": "Before",
+			"points": [
+				"Make sure your Hb in within normal range.",
+				"Eat iron-rich diet like beans, spinach, fish, and cereals.",
+				"Have a sound sleep and drink lots of fluids.",
+				"No alcohol should be consumed before the donation day.",
+				"Stop taking blood thinning medication before 2-3 days, if any."
+			]
+		},
+		{
+			"title": "On the day",
+			"points": [
+				"Drink extra water or non-alcoholic drink before donation.",
+				"Avoid fatty food like fries, burger etc.",
+				"Take all prescriptions or medications with you, if any.",
+				"Bring a photo identity proof.",
+				"Wear a shirt with loose sleeves that can be rolled up the elbows easily.",
+				"Talk to other donors or staff and relax."
+			]
+		},
+		{
+			"title": "After",
+			"points": [
+				"Keep bandage on the area of prick for next several hours.",
+				"Keep sitting for few minutes after donating blood.",
+				"Do not do any strenuous exercise like weight lifting for the rest of the day.",
+				"In case of dizziness, lie down until you feel better.",
+				"Keep taking iron-rich diet to replace the lost iron store from body."
+			]
+		}
+	]
+}

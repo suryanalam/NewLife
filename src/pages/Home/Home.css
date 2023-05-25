@@ -1,0 +1,216 @@
+.homeMain-div {
+	padding: 1rem;
+	padding-bottom: 5rem;
+	min-width: 100vw;
+	min-height: 90vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.slogan {
+	font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.slogan > span {
+	color: #bb0000;
+}
+
+.caption {
+	font-size: clamp(11px, 2vw, 14px);
+	color: rgb(41, 41, 41);
+	min-width: 35vw;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.join-btn {
+	margin: 0.5rem 0;
+	padding: 0.5rem;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 6px;
+	border: 2px solid rgb(205, 0, 0);
+	background-color: rgb(205, 0, 0);
+}
+
+.join-btn:hover {
+	border: 2px solid #bb0000;
+	background-color: #bb0000;
+}
+
+.join-btn:focus {
+	border: 2px solid #1e1e1e;
+}
+
+.home-div {
+	padding: 1rem 0;
+	min-width: 100vw;
+	min-height: 50vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	gap: 3rem;
+	z-index: 0;
+}
+
+.home-div:nth-child(even) {
+	flex-direction: row-reverse;
+	background-color: white;
+}
+
+.home-div:nth-child(odd) {
+	flex-direction: row;
+	background-color: #f1f1ff;
+}
+
+.text-div {
+	max-width: 40vw;
+	min-height: 40vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	letter-spacing: 0.5px;
+	gap: 1rem;
+}
+
+.ul-div {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+li {
+	font-size: clamp(11px, 2vw, 14px);
+}
+
+.img-div {
+	min-width: 20vw;
+	min-height: 40vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.homeMain-img {
+	width: 30vw;
+	height: 60vh;
+}
+
+.home-sub-img {
+	width: 18vw;
+	height: 36vh;
+}
+
+.title {
+	font-size: clamp(1rem, 2vw, 2rem);
+	line-height: 10vh;
+	color: #bb0000;
+}
+
+.precautions-div {
+	padding: 1rem 0;
+	min-width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	gap: 0.5rem;
+}
+
+.precautionsCard-div {
+	margin-bottom: 1rem;
+	padding: 0 2rem;
+	min-width: 100vw;
+	min-width: 100vw;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+}
+
+.prec-title {
+	color: #bb0000;
+}
+
+.HomeCard {
+	margin: 1rem 0;
+	padding: 0.5rem 1rem 1rem 2rem;
+	min-height: 45vh;
+	gap: 1rem;
+	border-radius: 25px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #1e1e1e;
+	background-color: #f5f5ff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.HomeCard:hover {
+	transform: translateY(-20px);
+	transition: transform 1s ease-in-out;
+	cursor: context-menu;
+	background-color: #1e1e1e;
+	color: #f5f5ff;
+}
+
+.HomeCard > .title {
+	font-size: clamp(0.8rem, 2vw, 1.2rem);
+	line-height: 0;
+	text-align: center;
+}
+
+.HomeCard > hr {
+	padding: 0;
+	margin: 0;
+	border: 2px solid #1e1e1e;
+}
+
+@media only screen and (max-width: 426px) {
+	.homeMain-div {
+		flex-direction: column-reverse;
+	}
+	.home-div {
+		flex-direction: column;
+		justify-content: center;
+		gap: 2rem;
+	}
+	.homeMain-img {
+		min-width: 60vw;
+		height: 45vh;
+	}
+	.text-div {
+		min-width: 80vw;
+	}
+	.img-div {
+		min-width: 80vw;
+		min-height: 40vh;
+	}
+	img,
+	path {
+		min-width: 60vw;
+		min-height: 40vh;
+	}
+	.precautionsCard-div {
+		flex-direction: row;
+	}
+	.precautionsCard-div {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.precautionsCard-div {
+		gap: 1.5rem;
+	}
+}
